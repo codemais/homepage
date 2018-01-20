@@ -21,7 +21,7 @@
       </a>
       <ul class="right hide-on-med-and-down">
         <li>
-          <a href="#">Página inicial</a>
+          <a href="/">Página inicial</a>
         </li>
         <!-- <li>
           <a href="#">Episódios</a>
@@ -38,7 +38,7 @@
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link </a></li>
+        <li><a href="/"><i class="material-icons">home</i>Home</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
@@ -61,20 +61,18 @@
 
   <div class="container" ng-controller="HomeController">
     <div class="section">
-      <div class="card hoverable horizontal" ng-repeat="episode in episodes">
-        <div class="card-image">
-          <img ng-src="images/thumbnails/{{ episode.image }}" class="responsive-img">
+      <div class="row hoverable z-depth-3" ng-repeat="episode in episodes">
+        <div class="col s12 m5" style="padding: 0px">
+          <!-- <img ng-src="images/thumbnails/{{ episode.image }}" class="responsive-img"> -->
+          <div class="video-container">
+            <iframe width="853" height="480" src="https://www.youtube.com/embed/4wpwtEFUJGs" frameborder="0" allowfullscreen></iframe>
+          </div>
         </div>
-        <div class="card-stacked">
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4"><strong>{{ episode.title }}</strong></span>
-            <p>{{ episode.description }}</p>
-            <div class="chip">
-              {{ episode.tag }}
-            </div>
-            <div class="chip">
-              {{ episode.date }}
-            </div>
+        <div class="col s12 m7">
+          <h5>{{ episode.title }}</h5>
+          <p>{{ episode.description }}</p>
+          <div class="chip" ng-repeat="tag in episode.tags">
+            {{ tag }}
           </div>
         </div>
       </div>
