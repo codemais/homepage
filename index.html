@@ -40,7 +40,9 @@
       <ul id="nav-mobile" class="side-nav">
         <li><a href="/"><i class="material-icons">home</i>Home</a></li>
       </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      <a href="#" data-activates="nav-mobile" class="button-collapse">
+        <i class="material-icons">menu</i>
+      </a>
     </div>
   </nav>
 
@@ -63,9 +65,8 @@
     <div class="section">
       <div class="row hoverable z-depth-3" ng-repeat="episode in episodes">
         <div class="col s12 m5" style="padding: 0px">
-          <!-- <img ng-src="images/thumbnails/{{ episode.image }}" class="responsive-img"> -->
           <div class="video-container">
-            <iframe width="853" height="480" src="https://www.youtube.com/embed/4wpwtEFUJGs" frameborder="0" allowfullscreen></iframe>
+            <iframe width="853" height="480" ng-src="{{episode.url | GetYouTubeUrl}}" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
         <div class="col s12 m7">
