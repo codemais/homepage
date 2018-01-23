@@ -4,5 +4,11 @@
     "description": "Neste episódio mostrarei como hospedar um site de forma gratuita utilizando o GitHub Pages.",
     "url": "https://www.youtube.com/embed/4wpwtEFUJGs",
     "tags": [ "episódio#01", "Jan/2018", "GitHub Pages"]
+  },
+   {
+    "title": "Envio de email utilizando o serviço Formspree",
+    "description": "Aprenda como enviar email por formulário básico ou Ajax de forma simples e rápida utilizando o serviço Formspree.",
+    "url": "https://www.youtube.com/embed/CanuQThIuw",
+    "tags": ["Formspree"]
   }
 ]
