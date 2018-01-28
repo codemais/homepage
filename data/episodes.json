@@ -1,4 +1,10 @@
-[
+[ 
+  {
+    "title": "Episódio 2: Zoho Mail - Como criar um email corporativo gratuitamente",
+    "description": "Neste vídeo pretendo ajudar à empreendedores que necessitam personalizar seu email de contato para alavancar ainda mais o seu negócio. Para tal mostrarei como criar e configurar um email corporativo gratuitamente utilizando o Zoho Mail.",
+    "url": "https://www.youtube.com/embed/DcSup1mw8RM",
+    "tags": [ "episódio#02", "Jan/2018", "Zoho Mail", "Email Corporativo"]
+  },
   {
     "title": "Episódio 1: Como hospedar um site estático gratuitamente",
     "description": "Neste episódio mostrarei como hospedar um site de forma gratuita utilizando o GitHub Pages.",
