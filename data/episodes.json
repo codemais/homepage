@@ -1,5 +1,11 @@
 [ 
   {
+    "title": "Episódio 3: Como fazer deploy de sua aplicação com Git",
+    "description": "Aprenda como fazer o deploy de uma aplicação utilizando o Git. Neste vídeo, iremos criar um repositório com Git --bare, configurar um servidor web, além de realizar o deploy de uma aplicações para um servidor remoto.",
+    "url": "https://www.youtube.com/embed/qMAmKMpHDx4",
+    "tags": [ "episódio#03", "Jan/2018", "Git Deploy"]
+  },
+  {
     "title": "Episódio 2: Zoho Mail - Como criar um email corporativo gratuitamente",
     "description": "Neste episódio mostrarei como personalizar seu email de contato para alavancar ainda mais o seu negócio. Para tal, iremos criar e configurar um email corporativo gratuitamente utilizando o Zoho Mail.",
     "url": "https://www.youtube.com/embed/DcSup1mw8RM",
